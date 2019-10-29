@@ -1,0 +1,30 @@
+
+.root {
+      height: 100vh;
+}
+    
+.image {
+        background-image: url(https://source.unsplash.com/random);
+        background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+.paper {
+      /* margin: spacing(8, 4); */
+      margin: 8px, 4px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+.avatar {
+      /* margin: theme.spacing(1); */
+      background-color: #dc004e !important;
+    }
+/* .form {
+      width: '100%';
+      margin-top: theme.spacing(1)
+    } */
+/* .submit {
+      margin: theme.spacing(3, 0, 2),
+    } */
+  
